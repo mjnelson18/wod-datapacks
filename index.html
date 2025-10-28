@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fantasy League Weekly Reports</title>
+<style>
+  :root {
+    --primary-color: #0d6efd;
+    --bg-color: #f8f9fa;
+    --text-color: #212529;
+    --card-bg: #ffffff;
+    --shadow: rgba(0, 0, 0, 0.1);
+  }
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+    box-shadow: 0 2px 6px var(--shadow);
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+  }
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+  .intro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .intro p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px var(--shadow);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px var(--shadow);
+  }
+  .card a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 1.05rem;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { background: #181a1b; color: #e9ecef; }
+    .card { background: #242628; }
+    header { background: #0b5ed7; }
+    footer { border-top-color: #333; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Fantasy League Weekly Reports</h1>
+</header>
+<main>
+  <section class="intro">
+    <p>Welcome! View the latest Gameweek summaries, standings, and league stats below.</p>
+  </section>
+  <section class="card-grid">
+    <div class="card">
+              <h3>Gameweek 9</h3>
+              <a href="weekly_report_GW9.html">View Report →</a>
+            </div>
+<div class="card">
+              <h3>Gameweek 8</h3>
+              <a href="weekly_report_GW8.html">View Report →</a>
+            </div>
+<div class="card">
+              <h3>Gameweek 7</h3>
+              <a href="weekly_report_GW7.html">View Report →</a>
+            </div>
+<div class="card">
+              <h3>Gameweek 6</h3>
+              <a href="weekly_report_GW6.html">View Report →</a>
+            </div>
+<div class="card">
+              <h3>Gameweek 5</h3>
+              <a href="weekly_report_GW5.html">View Report →</a>
+            </div>
+<div class="card">
+              <h3>Gameweek 4</h3>
+              <a href="weekly_report_GW4.html">View Report →</a>
+            </div>
+<div class="card">
+              <h3>Gameweek 3</h3>
+              <a href="weekly_report_GW3.html">View Report →</a>
+            </div>
+<div class="card">
+              <h3>Gameweek 2</h3>
+              <a href="weekly_report_GW2.html">View Report →</a>
+            </div>
+  </section>
+</main>
+<footer>
+  <p>Updated automatically on 28 Oct 2025 19:16 · © 2025 Fantasy League Dashboard</p>
+</footer>
+</body>
+</html>
